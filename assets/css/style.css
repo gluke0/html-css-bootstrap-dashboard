@@ -44,6 +44,13 @@ header form .input-group, .form-control{
     border-left: none;
 }
 
+.dropdown-menu:hover{
+    cursor: pointer;
+}
+
+.dropdown-menu{
+    background-color: white;
+}
 
 /* aside bar */
 aside{
@@ -77,11 +84,15 @@ aside ul li:hover{
 .blue{
     background-color: rgb(28, 115, 232);
 }
- 
+
 .rounded-pill{
     background-color: rgba(0, 0, 0, 0.3);
 }
- 
+
+.rounded-pill:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 #b-plus{
     border: none;
     color: white;
@@ -97,13 +108,47 @@ aside ul li:hover{
  
 #offcanvasRight{
     width: 100%;
-}
+}  
+
+/* table */
 
 #tables{
     width: 100%;
-    height: 100%;
+    height: (100% - 87px);
     background-color: rgb(248, 249, 250);
 }
+
+.table{
+    border-top: 1px solid lightgray;
+}
+
+table tr th:first-child{
+    width: 55%;
+}
+
+#tables .fa-code{
+    background-color: rgb(226, 109, 89);
+}
+
+tbody tr td:not(.stay-left){
+    text-align: center;
+}
+
+.i-style{
+    color: rgb(64, 64, 68);
+    border: 1px solid rgb(64, 64, 68);
+    border-radius: 6px;
+    padding: 6px;
+}
+
+.i-style:hover{
+    background-color: rgb(64, 64, 68);
+    color: white;
+}
+
+/* faq */
+
+
 
 /* media query */
 @media screen and (max-width:1399px){
