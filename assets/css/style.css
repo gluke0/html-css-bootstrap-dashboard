@@ -18,7 +18,7 @@ li{
 
 .view{
     height: 100vh;
-    width: 100%;
+     width: 100%;
 }
 
 
@@ -32,7 +32,7 @@ header .container-fluid{
     flex-grow: 1;
 }
 
-form .input-group, .form-control{
+header form .input-group, .form-control{
     border-radius: 10px;
 }
 
@@ -66,15 +66,54 @@ aside ul li:hover{
     border-radius: .5rem;
 }
 
+/* central */
+#central{
+    width: calc(100% - 130px);
+    height: calc(100vh - 87px);
+    overflow-y: auto;
+}
+ 
+/* blue */
+.blue{
+    background-color: rgb(28, 115, 232);
+}
+ 
+.rounded-pill{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+ 
+#b-plus{
+    border: none;
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.25rem;;
+}
+ 
+.badge ul{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    margin-left: 1rem;
+}
+ 
+#offcanvasRight{
+    width: 100%;
+}
+
+#tables{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(248, 249, 250);
+}
 
 /* media query */
 @media screen and (max-width:1399px){
     
 }
 
-
 @media screen and (max-width:1199px){
-    
+    #offcanvasRight{
+        width: 50%;
+    }
 }
 
 @media screen and (max-width:991px){
@@ -88,6 +127,10 @@ aside ul li:hover{
 
     main aside{
         width: 50px;
+    }
+
+    #central{
+        width: calc(100% - 50px);
     }
 
  
