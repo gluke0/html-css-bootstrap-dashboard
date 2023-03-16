@@ -23,14 +23,78 @@ li{
 
 
 /* header */
+header .container-fluid{
+    flex-wrap: nowrap;
+}
+
 .container-fluid form{
-    width: 65%;
+    width: 50%;
+    flex-grow: 1;
 }
 
 form .input-group, .form-control{
     border-radius: 10px;
 }
 
+.ul{
+    margin-top: 15px;
+}
+
 .form-control{
     border-left: none;
 }
+
+
+/* aside bar */
+aside{
+    height: calc(100vh - 77px);
+    width: 130px;
+    background-color: rgb(5, 30, 52);
+    background-image: url(../img/sidebar-bg.png);
+}
+
+aside ul{
+    padding-left: 0px;
+}
+
+aside ul li{
+    padding: 0.4rem;
+}
+
+aside ul li:hover{
+    background-color: lightgray;
+    border-radius: .5rem;
+}
+
+
+/* media query */
+@media screen and (max-width:1399px){
+    
+}
+
+
+@media screen and (max-width:1199px){
+    
+}
+
+@media screen and (max-width:991px){
+    
+}
+
+@media screen and (max-width:767px){
+    header .dropstart{
+        margin-right: 1rem;
+    }
+
+    main aside{
+        width: 50px;
+    }
+
+ 
+}
+
+@media screen and (max-width:575px){
+    
+}
+
+
