@@ -130,7 +130,7 @@
                     <!-- blue -->
                     <div class="blue py-4 px-4">
                         <div class="row align-items-center">
-                            <div class="col-12 col-md-6 text-white">
+                            <div class="col-12 col-md-4 text-white t-l">
                                 <div class="d-flex align-items-center">
                                     <h2>Boolean</h2>
                                     <a href="#">
@@ -159,13 +159,13 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-md-5  middle-top text-white">
+                                <div class="col-12 col-md-4 t-m text-white">
                                     <span>Studenti online negli ultimi 30 minuti</span>
                                     <h3>125</h3>
                                 </div>
-                                <div class="col-12 col-md-2 text-white"> Nuovo Studente
-                                <button class="btn border text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> <i class="fa-solid fa-plus"></i> </button>
-                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                    <div class="col-12 col-md-4 text-white t-r"> Nuovo Studente
+                                    <button class="btn border text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> <i class="fa-solid fa-plus"></i> </button>
+                                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                     <div class="offcanvas-header">
                                         <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -236,6 +236,7 @@
                     <div id="tables" class="px-3 py-4">
                         <div class="row">
                             <div class="col-12 col-md-6">
+                                <!-- table -->
                                 <div class="card">
                                     <div class="tabletitle py-3 px-2 bg-body-tertiary">
                                         <h2>Prossime classi</h2>
@@ -245,8 +246,8 @@
                                             <thead>
                                               <tr>
                                                 <th scope="col">Name</th>
-                                                <th class="text-center" scope="col" class="thief">Data inizio</th>
-                                                <th class="text-center" scope="col" class="thief text-uppercase">Roi</th>
+                                                <th class="text-center nom" scope="col" class="thief">Data inizio</th>
+                                                <th class="text-center text-uppercase nom" scope="col" class="thief">Roi</th>
                                                 <th class="text-center" scope="col">Stato</th>
                                                 <th class="text-center" scope="col">Azioni</th>
                                               </tr>
@@ -258,9 +259,9 @@
                                                         <i class="fa-solid fa-code text-white rounded-circle py-2 px-2"></i>
                                                         <h6 class="d-inline-block">Classe 75</h6>
                                                     </td>
-                                                        <td class="thief">
+                                                        <td class="thief nom">
                                                         15 Feb 2021 </td>
-                                                    <td class="thief"> 20% </td>
+                                                    <td class="thief nom"> 20% </td>
                                                     <td>
                                                         <span class="badge text-bg-success">Done</span>
                                                     </td>
@@ -275,9 +276,9 @@
                                                         <i class="fa-solid fa-code text-white rounded-circle py-2 px-2"></i>
                                                         <h6 class="d-inline-block">Classe 76</h6>
                                                     </td>
-                                                        <td class="thief">
+                                                        <td class="thief nom">
                                                         16 Feb 2021 </td>
-                                                    <td class="thief"> 20% </td>
+                                                    <td class="thief nom"> 20% </td>
                                                     <td>
                                                         <span class="badge text-bg-success">Done</span>
                                                     </td>
@@ -292,9 +293,9 @@
                                                         <i class="fa-solid fa-code text-white rounded-circle py-2 px-2"></i>
                                                         <h6 class="d-inline-block">Classe 77</h6>
                                                     </td>
-                                                        <td class="thief">
+                                                        <td class="thief nom">
                                                         17 Feb 2021 </td>
-                                                    <td class="thief"> 20% </td>
+                                                    <td class="thief nom"> 20% </td>
                                                     <td>
                                                         <span class="badge text-bg-warning text-white">Process</span>
                                                     </td>
@@ -309,9 +310,9 @@
                                                         <i class="fa-solid fa-code text-white rounded-circle py-2 px-2"></i>
                                                         <h6 class="d-inline-block">Classe 78</h6>
                                                     </td>
-                                                        <td class="thief">
+                                                        <td class="thief nom">
                                                         18 Feb 2021 </td>
-                                                    <td class="thief"> 20% </td>
+                                                    <td class="thief nom"> 20% </td>
                                                     <td>
                                                         <span class="badge text-bg-success">Done</span>
                                                     </td>
@@ -326,9 +327,9 @@
                                                         <i class="fa-solid fa-code text-white rounded-circle py-2 px-2"></i>
                                                         <h6 class="d-inline-block">Classe 79</h6>
                                                     </td>
-                                                        <td class="thief">
+                                                        <td class="thief nom">
                                                         19 Feb 2021 </td>
-                                                    <td class="thief"> 20% </td>
+                                                    <td class="thief nom"> 20% </td>
                                                     <td>
                                                         <span class="badge text-bg-danger">Failed</span>
                                                     </td>
@@ -343,9 +344,9 @@
                                                         <i class="fa-solid fa-code text-white rounded-circle py-2 px-2"></i>
                                                         <h6 class="d-inline-block">Classe 80</h6>
                                                     </td>
-                                                        <td class="thief">
+                                                        <td class="thief nom">
                                                         20 Feb 2021 </td>
-                                                    <td class="thief"> 20% </td>
+                                                    <td class="thief nom"> 20% </td>
                                                     <td>
                                                         <span class="badge text-bg-success">Done</span>
                                                     </td>
@@ -360,9 +361,9 @@
                                                         <i class="fa-solid fa-code text-white rounded-circle py-2 px-2"></i>
                                                         <h6 class="d-inline-block">Classe 81</h6>
                                                     </td>
-                                                        <td class="thief">
+                                                        <td class="thief nom">
                                                         21 Feb 2021 </td>
-                                                    <td class="thief"> 20% </td>
+                                                    <td class="thief nom"> 20% </td>
                                                     <td>
                                                         <span class="badge text-bg-danger">Failed</span>
                                                     </td>
@@ -377,9 +378,9 @@
                                                         <i class="fa-solid fa-code text-white rounded-circle py-2 px-2"></i>
                                                         <h6 class="d-inline-block">Classe 82</h6>
                                                     </td>
-                                                        <td class="thief">
+                                                        <td class="thief nom">
                                                         22 Feb 2021 </td>
-                                                    <td class="thief"> 20% </td>
+                                                    <td class="thief nom"> 20% </td>
                                                     <td>
                                                         <span class="badge text-bg-success">Done</span>
                                                     </td>
@@ -393,11 +394,8 @@
                                     </div>
                                 </div>
                             </div>
+                            
                         </div>
-
-                        <!-- faq -->
-                        
-
                     </div>    
                 </div>
             </div>

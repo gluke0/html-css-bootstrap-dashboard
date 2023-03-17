@@ -107,14 +107,14 @@ aside ul li:hover{
 }
  
 #offcanvasRight{
-    width: 100%;
+    width: 50%;
 }  
 
 /* table */
 
 #tables{
     width: 100%;
-    height: (100% - 87px);
+    height: 100%;
     background-color: rgb(248, 249, 250);
 }
 
@@ -152,12 +152,12 @@ tbody tr td:not(.stay-left){
 
 /* media query */
 @media screen and (max-width:1399px){
-    
+   
 }
 
 @media screen and (max-width:1199px){
     #offcanvasRight{
-        width: 50%;
+        width: 100%;
     }
 }
 
@@ -178,11 +178,29 @@ tbody tr td:not(.stay-left){
         width: calc(100% - 50px);
     }
 
+    .t-l{
+        order: 3
+    }
+
+    .t-r{
+        order: 1
+    }
+
+    .t-m{
+        order: 2
+    }
+
+    table tr th:first-child{
+        width: auto;
+    }
+
  
 }
 
 @media screen and (max-width:575px){
-    
+    #tables table .nom{
+        display: none;
+    }
 }
 
 
