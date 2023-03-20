@@ -195,7 +195,7 @@ main .input-group-text, main .form-control{
     }
     
     .t-l{
-        order: 3
+        order: 2
     }
     
     .t-r{
@@ -203,7 +203,7 @@ main .input-group-text, main .form-control{
     }
     
     .t-m{
-        order: 2
+        order: 3
     }
 }
 
